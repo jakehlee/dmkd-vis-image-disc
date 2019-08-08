@@ -38,9 +38,9 @@ if __name__ == '__main__':
 				dist = np.linalg.norm(avg_color - yellow_bgr)
 
 				if dist < cutoff:
-					print "copying " + str(counter) + '_' + str(i) + '.jpg = ' + str(dist)
+					print "copying " + an_image
 					shutil.copy2(os.path.join(ilsvrc, classname, an_image),
-						os.path.join(output, str(counter), str(counter)+'_'+str(i)+'.jpg'))
+						os.path.join(output, str(counter), an_image))
 					i += 1
 				if i == qty:
 					break

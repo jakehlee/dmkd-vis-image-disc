@@ -25,9 +25,9 @@ if __name__ == '__main__':
 				os.makedirs(os.path.join(output, classname))	
 			i = 0
 			for an_image in os.listdir(os.path.join(ilsvrc, classname)):
-				print "copying " + classname + '_' + str(i) + '.jpg'
+				print "copying " + an_image
 				shutil.copy2(os.path.join(ilsvrc, classname, an_image),
-					os.path.join(output, classname, classname+'_'+str(i)+'.jpg'))
+					os.path.join(output, classname, an_image))
 				i += 1
 				if i == qty:
 					break
