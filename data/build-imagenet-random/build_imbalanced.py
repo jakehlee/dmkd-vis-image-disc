@@ -1,4 +1,4 @@
-#!/user/bin/env python
+#!/usr/bin/env python
 # extract images from the training set into folders
 # Jake Lee, 1/13/18
 

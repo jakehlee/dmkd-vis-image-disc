@@ -1,10 +1,8 @@
-#!/user/bin/env python
+#!/usr/bin/env python
 # extract images from the training set into folders
 # Jake Lee, 1/13/18
 
 import sys, os
-import urllib
-import socket
 import shutil
 
 localdir = os.path.dirname(os.path.abspath(__file__))
