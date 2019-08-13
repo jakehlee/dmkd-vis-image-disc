@@ -35,6 +35,18 @@ This repository uses git-lfs to store model weights. Install git-lfs [here](http
 
 ----
 
+##### Extracted features for ImageNet data sets
+
+Features extracted from the data set are provided in the following directories:
+
+* `data/build-imagenet-random/balanced_feats`
+* `data/build-imagenet-random/imbalanced_feats`
+* `data/build-imagenet-yellow/yellow_feats`
+
+Each directory contains three `.csv` files with extracted features, as well as the configuration file used to extract those features. These features were extracted using the instructions described in the README in the root of this repository.
+
+----
+
 ##### Mars-Curiosity
 24 classes of the Mars-Curiosity data set can be accessed on Zenodo at https://zenodo.org/record/1049137. An additional class of 21 images, "sun", was added for our experiments, for a total of 25 classes with 6712 images. This additional class is included in `data/mars-sun-class/`
 
