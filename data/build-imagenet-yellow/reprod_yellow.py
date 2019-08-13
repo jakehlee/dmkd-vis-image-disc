@@ -12,9 +12,17 @@ filenames = 'yellow_filenames.txt'
 
 if __name__ == '__main__':
     with open(filenames, 'r') as f:
+        seen = set()
         for an_entry in f.readlines():
             classname = an_entry.split('/')[0]
             if not os.path.exists(os.path.join(output, classname)):
                 os.makedirs(os.path.join(output, classname))
-            shutil.copy2(os.path.join(ilsvrc, an_entry.rstrip('\n')), \
-                os.path.join(output, an_entry.rstrip('\n')))
+            if an_entry not in seen:
+                shutil.copy2(os.path.join(ilsvrc, an_entry.rstrip('\n')), \
+                    os.path.join(output, an_entry.rstrip('\n')))
+                seen.add(an_entry)
+            else:
+                # A duplicate snuck past us during the experiments.
+                # We handle said duplicate here.
+                shutil.copy2(os.path.join(ilsvrc, an_entry.rstrip('\n')), \
+                    os.path.join(output, an_entry.rstrip('\n').split('.')[0]+'-2.JPEG'))
