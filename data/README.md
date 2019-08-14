@@ -4,8 +4,6 @@
 
 This repository contains supplemental scripts and data used in the experiments presented in the paper.
 
-This repository uses git-lfs to store model weights. Install git-lfs [here](https://git-lfs.github.com).
-
 ## data/
 
 ##### ImageNet-Random
@@ -35,7 +33,17 @@ This repository uses git-lfs to store model weights. Install git-lfs [here](http
 
 ----
 
-##### Extracted features for ImageNet data sets
+##### Mars-Curiosity
+24 classes of the Mars-Curiosity data set can be accessed on Zenodo at https://zenodo.org/record/1049137. An additional class of 21 images, "sun", was added for our experiments, for a total of 25 classes with 6712 images. This additional class is included in `data/mars-sun-class/`
+
+----
+
+##### STONEFLY9
+The STONEFLY9 data set can be access at http://web.engr.oregonstate.edu/~tgd/bugid/stonefly9/.
+
+----
+
+##### Extracted features
 
 Features extracted from the data set are provided in the following directories:
 
@@ -46,16 +54,6 @@ Features extracted from the data set are provided in the following directories:
 * `data/STONEFLY9_feats`
 
 Each directory contains three `.csv` files with extracted features. These features were extracted using the instructions described in the README in the root of this repository.
-
-----
-
-##### Mars-Curiosity
-24 classes of the Mars-Curiosity data set can be accessed on Zenodo at https://zenodo.org/record/1049137. An additional class of 21 images, "sun", was added for our experiments, for a total of 25 classes with 6712 images. This additional class is included in `data/mars-sun-class/`
-
-----
-
-##### STONEFLY9
-The STONEFLY9 data set can be access at http://web.engr.oregonstate.edu/~tgd/bugid/stonefly9/.
 
 
 

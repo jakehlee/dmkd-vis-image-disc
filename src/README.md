@@ -4,8 +4,6 @@
 
 This repository contains supplemental scripts and data used in the experiments presented in the paper.
 
-This repository uses git-lfs to store model weights. Install git-lfs [here](https://git-lfs.github.com).
-
 ## src/
 
 `src/extract/deploy.prototxt` is a modified prototxt for the model `bvlc_reference_caffenet`. Originally, the model performs ReLU in-place, overwriting the `fc6` and `fc7` blobs in the process. Our modified prototxt instead writes post-ReLU values to the `relu6` and `relu7` blobs, allowing us to extract pre-ReLU activation values.
