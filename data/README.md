@@ -42,8 +42,10 @@ Features extracted from the data set are provided in the following directories:
 * `data/build-imagenet-random/balanced_feats`
 * `data/build-imagenet-random/imbalanced_feats`
 * `data/build-imagenet-yellow/yellow_feats`
+* `data/mars_feats`
+* `data/STONEFLY9_feats`
 
-Each directory contains three `.csv` files with extracted features, as well as the configuration file used to extract those features. These features were extracted using the instructions described in the README in the root of this repository.
+Each directory contains three `.csv` files with extracted features. These features were extracted using the instructions described in the README in the root of this repository.
 
 ----
 
