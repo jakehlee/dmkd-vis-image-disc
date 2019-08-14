@@ -1,6 +1,6 @@
 # Visualizing Image Content to Explain Novel Image Discovery
 ### Jake Lee, Kiri Wagstaff
-### Under Preparation
+### In Preparation
 
 This repository contains supplemental scripts and data used in the experiments presented in the paper.
 
