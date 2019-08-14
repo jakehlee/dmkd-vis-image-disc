@@ -4,8 +4,6 @@
 
 This repository contains supplemental scripts and data used in the experiments presented in the paper.
 
-This repository uses git-lfs to store model weights. Install git-lfs [here](https://git-lfs.github.com).
-
 ## Step-by-step instructions for running experiments
 
 1. **Compile the image data set** - It is recommended that the image filename include the class information. The images can be in class subfolders or in a single folder.
