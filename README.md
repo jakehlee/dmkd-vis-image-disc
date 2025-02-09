@@ -1,6 +1,8 @@
 # Visualizing Image Content to Explain Novel Image Discovery
-### Jake Lee, Kiri Wagstaff
-### In Preparation
+
+Lee, J.H., Wagstaff, K.L. Visualizing image content to explain novel image discovery. Data Min Knowl Disc 34, 1777–1804 (2020). https://doi.org/10.1007/s10618-020-00700-0
+
+Lee, Jake; Wagstaff, Kiri, 2024, "Dataset for "Visualizing image content to explain novel image discovery"", https://doi.org/10.48577/jpl.3FUOOD, JPL Open Repository
 
 This repository contains supplemental scripts and data used in the experiments presented in the paper.
 
